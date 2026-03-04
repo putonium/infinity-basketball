@@ -10,10 +10,10 @@ All divisions practice **twice per week** starting in April. Specific days and t
 
 | Division | Practice Days | Start Date | Location |
 |----------|--------------|------------|----------|
-| U11 | TBD after team selection | April 2025 | La Crete gym (TBC) |
-| U13 | TBD after team selection | April 2025 | La Crete gym (TBC) |
-| U15 | TBD after team selection | April 2025 | La Crete gym (TBC) |
-| High School | TBD after team selection | April 2025 | La Crete gym (TBC) |
+| U11 | TBD after team selection | April 2026 | La Crete gym (TBC) |
+| U13 | TBD after team selection | April 2026 | La Crete gym (TBC) |
+| U15 | TBD after team selection | April 2026 | La Crete gym (TBC) |
+| High School | TBD after team selection | April 2026 | La Crete gym (TBC) |
 
 ## Notes
 
