@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Practice Schedule – Infinity Basketball Club</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="index.html" class="logo">
+        <span class="logo-icon">&#9776;</span>
+        <span class="logo-text">Infinity <span class="logo-accent">Basketball</span></span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="site-nav" id="siteNav">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="fees.html" class="nav-link">Fees</a>
+        <a href="schedule.html" class="nav-link active">Schedule</a>
+        <a href="tournaments.html" class="nav-link">Tournaments</a>
+        <a href="coaches.html" class="nav-link">Coaches</a>
+        <a href="board.html" class="nav-link">Board</a>
+        <a href="conduct.html" class="nav-link">Conduct</a>
+        <a href="contact.html" class="nav-link nav-link--cta">Contact Us</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <div class="container">
+      <span class="section-tag">Season</span>
+      <h1>Practice Schedule</h1>
+      <p>Practices run twice per week starting in April. Specific times and locations will be communicated after team selection.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div id="md-content" class="md-body">Loading...</div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="logo-text">Infinity <span class="logo-accent">Basketball</span></span>
+        <p>La Crete, Alberta &mdash; Northern Alberta's competitive youth basketball club.</p>
+        <a href="mailto:infinitylacrete@gmail.com">infinitylacrete@gmail.com</a>
+      </div>
+      <div class="footer-nav">
+        <h4>Quick Links</h4>
+        <a href="fees.html">Fees</a>
+        <a href="schedule.html">Practice Schedule</a>
+        <a href="tournaments.html">Tournaments</a>
+        <a href="coaches.html">Coaches</a>
+        <a href="board.html">Board Members</a>
+        <a href="conduct.html">Code of Conduct</a>
+        <a href="contact.html">Contact Us</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <span>&copy; 2025 Infinity Basketball Club. All rights reserved.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/md-loader.js" data-src="content/schedule.md"></script>
+</body>
+</html>
