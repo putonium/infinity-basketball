@@ -963,5 +963,5 @@ tbody td {
   .hero-actions { flex-direction: column; }
   .btn { width: 100%; justify-content: center; }
   .cta-card { padding: 36px 24px; }
-  .divisions-grid { grid-template-columns: 1fr 1fr; }
+  .divisions-grid { grid-template-columns: 1fr; }
 }
