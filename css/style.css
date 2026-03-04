@@ -914,6 +914,51 @@ tbody td {
   margin: 20px 0;
 }
 
+/* === RESPONSIVE TABLES (card layout on mobile) === */
+@media (max-width: 600px) {
+  .md-body .table-wrap { border: none; }
+
+  .md-body table thead { display: none; }
+
+  .md-body table,
+  .md-body table tbody,
+  .md-body table tr,
+  .md-body table td {
+    display: block;
+    width: 100%;
+  }
+
+  .md-body table tr {
+    border: 1px solid var(--gray-light);
+    border-radius: var(--radius);
+    margin-bottom: 12px;
+    overflow: hidden;
+  }
+
+  .md-body table td {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 10px 16px;
+    border-bottom: 1px solid var(--gray-light);
+    text-align: right;
+  }
+
+  .md-body table td:last-child { border-bottom: none; }
+
+  .md-body table td::before {
+    content: attr(data-label);
+    font-weight: 600;
+    font-size: 0.8rem;
+    color: var(--text);
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    text-align: left;
+    flex-shrink: 0;
+  }
+}
+
 /* === RESPONSIVE === */
 @media (max-width: 900px) {
   .info-columns { grid-template-columns: 1fr; gap: 48px; }

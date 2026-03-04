@@ -13,8 +13,15 @@
     })
     .then(text => {
       target.innerHTML = marked.parse(text);
-      // Wrap any tables so they get horizontal scroll on mobile
       target.querySelectorAll('table').forEach(table => {
+        // Tag each td with its column header for CSS card layout on mobile
+        const headers = [...table.querySelectorAll('thead th')].map(th => th.textContent.trim());
+        table.querySelectorAll('tbody tr').forEach(row => {
+          row.querySelectorAll('td').forEach((td, i) => {
+            if (headers[i]) td.setAttribute('data-label', headers[i]);
+          });
+        });
+        // Wrap for horizontal scroll fallback on larger tables
         const wrap = document.createElement('div');
         wrap.className = 'table-wrap';
         table.parentNode.insertBefore(wrap, table);
